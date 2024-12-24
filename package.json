@@ -1,0 +1,41 @@
+{
+  "name": "admin-dashboard-for-bus",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/lab": "^5.0.0-alpha.169",
+    "@mui/material": "^5.15.7",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.13",
+    "@mui/x-charts": "^6.19.5",
+    "@mui/x-data-grid": "^6.19.2",
+    "@mui/x-date-pickers": "^6.19.3",
+    "@tauri-apps/api": "^1.5.2",
+    "chart.js": "^4.4.2",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "date-fns": "^3.3.1",
+    "dayjs": "^1.11.10",
+    "faker": "^6.6.6",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-number-format": "^5.4.0",
+    "react-router-dom": "^6.21.3",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@tauri-apps/cli": "^1.5.8",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
+}
